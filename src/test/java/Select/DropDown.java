@@ -13,8 +13,8 @@ public class DropDown {
 
 	public static void main(String[] args) throws InterruptedException {
 
-      WebDriver driver = new EdgeDriver();
-      driver.manage().window().maximize();
+     // WebDriver driver = new EdgeDriver();
+     // driver.manage().window().maximize();
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
       driver.get("https://www.amazon.in/");
       
@@ -61,4 +61,5 @@ public class DropDown {
       
 	}
 }
+
 
